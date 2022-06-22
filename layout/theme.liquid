@@ -134,7 +134,15 @@ src="https://www.facebook.com/tr?id=3628330397393435&ev=PageView&noscript=1"
     {% elsif settings.layout_home == 'layout_home_18' %}
       {%- assign home_class = 'layout_home_18' -%}
     {% endif %} 
-
+<script>
+  function initFreshChat() {
+    window.fcWidget.init({
+      token: "70189850-832b-4a53-ae2d-b2d0e1a57adb",
+      host: "https://wchat.freshchat.com"
+    });
+  }
+  function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"Freshdesk Messaging-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
+</script>
 
 <body data-url-lang="{{ routes.cart_url }}" id="{{ page_title | handle }}" class="{{ header_class }} {{ layout_class }} {% if customer %}customer-logged-in{% endif %}
 {% if template.suffix == 'landing' %} template-index{% else %} template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% endif %} {{settings.style_product_grid}}{% if settings.layout_style == 'layout_style_1' %} layout_default{% else %} {{settings.layout_style}}{% endif %} {{ home_class }}
