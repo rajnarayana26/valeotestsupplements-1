@@ -54,7 +54,7 @@ this.push(["(",i,s.paramsInit?["),(",s.paramsInit]:[],"),","(typeof helper === "
         class="ba-products-box ba-products-box_2 with-prices with-compare-prices with-sale-badge"
         style="">
     <h2 class="freq_text" style="color: #222;font-family: Sans-Serif;font-size: 21px;text-align: left">
-      Frequently Bought Together
+      Better Together
     </h2>
     <div class="ba-products-list">
       {{#products}}
@@ -73,13 +73,13 @@ this.push(["(",i,s.paramsInit?["),(",s.paramsInit]:[],"),","(typeof helper === "
       <span id="ba-total-price-cont">
         <span id="ba-total-price-title">Total Price</span>:
         <span class="ba-product-price ba-total-price sale-price money"
-style="color:#989898">
+style="color:#000000">
         </span>
       </span>
       <button class="ba-product-addtocart ba-freq-atc" type="button"
-              style="background-color: #6371c7;color: #ffffff;border-color: #6371c7;border-style: solid;border-width: 1px"
+              style="background-color: #9ccc65;color: #455a64;border-color: #6371c7;border-style: solid;border-width: 1px"
               onMouseOver="this.style.backgroundColor='#3f4eae';this.style.color='#fafafa';"
-              onMouseOut="this.style.backgroundColor='#6371c7';this.style.color='#ffffff';"
+              onMouseOut="this.style.backgroundColor='#9ccc65';this.style.color='#455a64';"
               >
         Add selected to cart
       </button>
@@ -92,11 +92,11 @@ style="color:#989898">
           {{#ifThisProduct id}}
             <strong>
               <span class="this-item">This item:</span>
-              <span class="product-title" style="color:#111111">{{{title}}}</span>
+              <span class="product-title" style="color:#455a64">{{{title}}}</span>
             </strong>
           {{/ifThisProduct}}
           {{#unlessThisProduct id}}
-            <a href="/products/{{handle}}" class="product-title" target="_blank" style="color:#111111">
+            <a href="/products/{{handle}}" class="product-title" target="_blank" style="color:#455a64">
               {{{title}}}
             </a>
           {{/unlessThisProduct}}
@@ -112,11 +112,11 @@ style="color:#989898">
             </div>
           {{/ifMoreThan}}
           <span class="ba-product-price-container">
-            <span class="ba-product-price money sale-price ba-regular-price" style="color:#989898">
+            <span class="ba-product-price money sale-price ba-regular-price" style="color:#000000">
               {{{displayPrice variants.0.price}}}
             </span>
             <span class="ba-product-oldprice reg-price money ba-compare-at-price {{#unless variants.0.compare_at_price}}ba-hidden{{/unless}}"
-                  style="color:#b12704">
+                  style="color:#c2185b">
               {{{displayPrice variants.0.compare_at_price}}}
             </span>
           </span>
@@ -173,6 +173,19 @@ style="color:#989898">
       };
 
       if(window.booster.ba_page == 'product') {
+        
+          var widget = new RecProductWidget();
+          widget.settings = {
+            app_root_url: '/apps/booster_recommendations',
+            app_name:     'freq',
+            shop_domain:  '',
+            shuffle: true,
+            freq_enabled: true,
+            trans_add_selected_to_cart: 'Add selected to cart',
+            trans_added_selected_to_cart: 'Added selected to cart',
+            action_after_add: 'go_to_cart'
+          };
+          widget.init();
         
         
       } else if(window.booster.ba_page == 'cart') {
