@@ -4654,15 +4654,7 @@
       "16165784478345e08f",
       "1648465924dc94e1e2",
       "16484556062de7aa0f"
-    ],
-    "blocks": {
-      "9028757615627660041": {
-        "type": "shopify:\/\/apps\/fbt-frequently-bought-together\/blocks\/app-embeded\/51712c89-314f-4c37-bf48-256845cc949d",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    }
+    ]
   },
   "presets": {
     "Default": {
