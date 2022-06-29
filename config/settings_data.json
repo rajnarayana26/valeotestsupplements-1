@@ -3033,7 +3033,7 @@
             "type": "footer_link",
             "settings": {
               "footer_title": "Useful Links",
-              "footer_linklist": "useful-links"
+              "footer_linklist": ""
             }
           },
           "ce41c81e-4c54-4b5f-a674-1f182ca372da": {
@@ -3111,10 +3111,7 @@
           "payment_display_stripe": false,
           "payment_display_sage": false,
           "payment_display_wallet": false,
-          "payment_display_western": false,
-          "icon_visa": "shopify:\/\/shop_images\/visa.png",
-          "icon_master": "shopify:\/\/shop_images\/mastercard.png",
-          "icon_apple_pay": "shopify:\/\/shop_images\/apple_pay.png"
+          "payment_display_western": false
         }
       },
       "header-08": {
@@ -3124,9 +3121,7 @@
           "brand_text": "",
           "logo_max_width": 40,
           "logo_text_color": "#000000",
-          "logo_pc": "shopify:\/\/shop_images\/Kuwa-Logo-Transparent-400x290.png",
           "max_height_logo_pc": "140px",
-          "logo": "shopify:\/\/shop_images\/Kuwa-Logo-Transparent-400x290.png",
           "max_height_logo_mb": "120px",
           "bg_header_bottom_color": "#ffffff",
           "header_bottom_link_color": "#000000",
@@ -3320,7 +3315,6 @@
           "16161442409c89b74f-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Kuwa_Website_Visual2.jpg",
               "color": "#ffffff",
               "title": "",
               "des": "",
@@ -3331,7 +3325,6 @@
           "16161442409c89b74f-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Kuwa_Website_Visual3.jpg",
               "color": "#ffffff",
               "title": "",
               "des": "",
@@ -3342,7 +3335,6 @@
           "16161442409c89b74f-2": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Kuwa_Website_Visual.jpg",
               "color": "#ffffff",
               "title": "",
               "des": "",
@@ -3376,7 +3368,6 @@
           "16161487307ca76bd2-0": {
             "type": "oneImage",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Kuwa_Website_Visual5.jpg",
               "title": "",
               "color_title": "#ffffff",
               "button": "",
@@ -3389,7 +3380,6 @@
           "16161487307ca76bd2-1": {
             "type": "oneImage",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Kuwa_Website_Visual4.jpg",
               "title": "",
               "color_title": "#ffffff",
               "button": "",
@@ -3428,8 +3418,6 @@
             "disabled": true,
             "settings": {
               "dpl_slide_img": true,
-              "image_slide": "shopify:\/\/shop_images\/Kuwa_B8_April_Post4.jpg",
-              "image_slide_mb": "shopify:\/\/shop_images\/Kuwa_B8_April_Post5.jpg",
               "style_content": "style_4",
               "alignment": "left",
               "alignment_custom": "35%",
@@ -3486,8 +3474,6 @@
             "type": "image",
             "settings": {
               "dpl_slide_img": true,
-              "image_slide": "shopify:\/\/shop_images\/Kuwa_B8_April_Post6_1_1.jpg",
-              "image_slide_mb": "shopify:\/\/shop_images\/Kuwa_B8_April_Post7_1_1.jpg",
               "style_content": "style_4",
               "alignment": "left",
               "alignment_custom": "35%",
@@ -3605,7 +3591,6 @@
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/KUWA_Image_Icons_with_text_-01.png",
               "title": "",
               "content": "",
               "link_text": "Immunity",
@@ -3615,7 +3600,6 @@
           "16163994522c9c9866-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Beauty.jpg",
               "title": "",
               "content": "",
               "link_text": "Beauty & Skin",
@@ -3625,7 +3609,6 @@
           "16163994522c9c9866-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Bone_health.jpg",
               "title": "",
               "content": "",
               "link_text": "Bone health",
@@ -3635,7 +3618,6 @@
           "915e99d0-d3b0-4807-ae45-1d5f23c2c9aa": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Gut__Digestion.jpg",
               "title": "",
               "content": "",
               "link_text": "Cholesterol",
@@ -3645,7 +3627,6 @@
           "a7b987c6-2caa-4181-8442-2e1d5f3a91d8": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Immunity.jpg",
               "title": "",
               "content": "",
               "link_text": "Immunity",
@@ -3655,7 +3636,6 @@
           "73bf1406-b154-47f3-9f5b-e6d705d545e7": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Male_Performance.jpg",
               "title": "",
               "content": "",
               "link_text": "General Healthcare",
@@ -3666,7 +3646,6 @@
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/Protein.jpg",
               "title": "",
               "content": "",
               "link_text": "Protein",
@@ -3676,7 +3655,6 @@
           "db3a8ef3-152e-405c-9987-c63e66c3178a": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Weight_loss.jpg",
               "title": "",
               "content": "",
               "link_text": "Weight Management",
@@ -3763,7 +3741,6 @@
             "type": "block",
             "settings": {
               "icon_type": "image",
-              "image": "shopify:\/\/shop_images\/amazon.png",
               "text_icon": "",
               "content": "",
               "description": "",
@@ -3777,7 +3754,6 @@
             "type": "block",
             "settings": {
               "icon_type": "image",
-              "image": "shopify:\/\/shop_images\/careem_4b5250d4-3227-4a9e-8df0-27f3024cb59e.png",
               "text_icon": "",
               "content": "",
               "description": "",
@@ -3791,7 +3767,6 @@
             "type": "block",
             "settings": {
               "icon_type": "image",
-              "image": "shopify:\/\/shop_images\/noon.png",
               "text_icon": "",
               "content": "",
               "description": "",
@@ -3805,7 +3780,6 @@
             "type": "block",
             "settings": {
               "icon_type": "image",
-              "image": "shopify:\/\/shop_images\/talabat.png",
               "text_icon": "",
               "content": "",
               "description": "",
@@ -3901,7 +3875,6 @@
           "593efcfb-e2f5-4613-94b5-c39c4a4a8fd7": {
             "type": "block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Beauty.jpg",
               "text": "Beauty & Skin",
               "button_text": "Shop Now",
               "button_link": "shopify:\/\/collections\/beauty-amp-skin"
@@ -3973,7 +3946,6 @@
           "11fa0350-54f7-4efe-834e-4227f98f03ef": {
             "type": "block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Beauty.jpg",
               "text": "Beauty & Skin",
               "button_text": "View More",
               "button_link": "shopify:\/\/collections\/beauty-amp-skin"
@@ -4280,7 +4252,6 @@
           "1648043409160921de-0": {
             "type": "oneImage",
             "settings": {
-              "image": "shopify:\/\/shop_images\/1_Range-KV_1.jpg",
               "title": "",
               "color_title": "#ffffff",
               "button": "",
@@ -4293,7 +4264,6 @@
           "1648043409160921de-1": {
             "type": "oneImage",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Screenshot_at_May_19_15-54-13.png",
               "title": "",
               "color_title": "#ffffff",
               "button": "",
@@ -4399,7 +4369,6 @@
           "1648465924dc94e1e2-0": {
             "type": "Review",
             "settings": {
-              "reviews_image": "shopify:\/\/shop_images\/PngItem_1961444.png",
               "enable_image": true,
               "reviews_heading": "",
               "rating": "star0",
@@ -4414,7 +4383,6 @@
           "1648465924dc94e1e2-1": {
             "type": "Review",
             "settings": {
-              "reviews_image": "shopify:\/\/shop_images\/PngItem_1961444.png",
               "enable_image": true,
               "reviews_heading": "",
               "rating": "star0",
@@ -4429,7 +4397,6 @@
           "1648465924dc94e1e2-2": {
             "type": "Review",
             "settings": {
-              "reviews_image": "shopify:\/\/shop_images\/PngItem_1961444.png",
               "enable_image": true,
               "reviews_heading": "",
               "rating": "star0",
@@ -4444,7 +4411,6 @@
           "bf24c7e4-8ba0-4c56-aeff-b1b9ff2c4565": {
             "type": "Review",
             "settings": {
-              "reviews_image": "shopify:\/\/shop_images\/PngItem_1961444.png",
               "enable_image": true,
               "reviews_heading": "",
               "rating": "star0",
@@ -4459,7 +4425,6 @@
           "d4566cc8-8a69-43c4-af04-1fe380a9cdb7": {
             "type": "Review",
             "settings": {
-              "reviews_image": "shopify:\/\/shop_images\/PngItem_1961444.png",
               "enable_image": true,
               "reviews_heading": "",
               "rating": "star0",
@@ -4474,7 +4439,6 @@
           "861847a0-e49c-452f-9152-af6e5fbff09d": {
             "type": "Review",
             "settings": {
-              "reviews_image": "shopify:\/\/shop_images\/PngItem_1961444.png",
               "enable_image": true,
               "reviews_heading": "",
               "rating": "star0",
@@ -4489,7 +4453,6 @@
           "7ec59a17-88d4-43dd-af5a-af2bdb8a392a": {
             "type": "Review",
             "settings": {
-              "reviews_image": "shopify:\/\/shop_images\/PngItem_1961444.png",
               "enable_image": true,
               "reviews_heading": "",
               "rating": "star0",
@@ -4528,7 +4491,6 @@
           "1653970780c7bb4153-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/KUWA_Image_Icons_370_x_440-09.jpg",
               "title": "",
               "content": "",
               "link_text": "",
@@ -4538,7 +4500,6 @@
           "1653970780c7bb4153-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/KUWA_Image_Icons_370_x_440-14_1.jpg",
               "title": "",
               "content": "",
               "link_text": "",
@@ -4548,7 +4509,6 @@
           "1653970780c7bb4153-2": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/KUWA_Image_Icons_370_x_440-12.jpg",
               "title": "",
               "content": "",
               "link_text": "",
@@ -4558,7 +4518,6 @@
           "884df508-63a5-4cf2-b529-ae7dfee1b01f": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/KUWA_Image_Icons_370_x_440-16.jpg",
               "title": "",
               "content": "",
               "link_text": "",
@@ -4568,7 +4527,6 @@
           "a0345968-5ca8-440e-ba09-23a34146d965": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/KUWA_Image_Icons_370_x_440-10_1.jpg",
               "title": "",
               "content": "",
               "link_text": "",
@@ -4578,7 +4536,6 @@
           "3f4ad264-b600-459f-aef0-2e4c8d9ed476": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/KUWA_Image_Icons_370_x_440-15.jpg",
               "title": "",
               "content": "",
               "link_text": "",
@@ -4588,7 +4545,6 @@
           "86c884aa-2e07-4046-9460-961c6798f461": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/KUWA_Image_Icons_370_x_440-11_1.jpg",
               "title": "",
               "content": "",
               "link_text": "",
@@ -4598,7 +4554,6 @@
           "ef2837b4-b0d4-41ef-bb1c-92dfd46afea9": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/KUWA_Image_Icons_370_x_440-13.jpg",
               "title": "",
               "content": "",
               "link_text": "",
