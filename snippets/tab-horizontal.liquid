@@ -114,7 +114,11 @@
                 </a>
             </div>
             <div class="tab-content {% if tab2_active%}active{% endif %}" data-TabContent id="collapse-tab2">
-                <div id="shopify-product-reviews" data-id="{{product.id}}">
+                
+{% comment %}Start automatically added Judge.me widget{% endcomment %}
+  {% render 'judgeme_widgets', widget_type: 'judgeme_review_widget', concierge_install: true, product: product %}
+{% comment %}End automatically added Judge.me widget{% endcomment %}
+<div id="shopify-product-reviews" data-id="{{product.id}}">
                     {{ product.metafields.spr.reviews }}
                 </div>
               

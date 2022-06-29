@@ -137,7 +137,11 @@
           {% render 'add-to-cart-form', product: product, sold_out: sold_out, id: 'grid-product-form-', position: position, sectionId: sectionId %}
         </div>
       {% endif %}
-    </div>
+    
+{% comment %}Start automatically added Judge.me widget{% endcomment %}
+  {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', concierge_install: true, product: product %}
+{% comment %}End automatically added Judge.me widget{% endcomment %}
+</div>
 
     {% comment %} Use for productList {% endcomment %}
     <div class="product-details">
