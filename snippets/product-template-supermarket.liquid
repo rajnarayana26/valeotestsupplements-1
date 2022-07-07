@@ -1,6 +1,6 @@
 <div id="shopify-section-product-template-suppermarket" class="shopify-section col-12">
   <div data-section-id="{{ section.id }}" data-section-type="product" id="ProductSection-{{ section.id }}" data-enable-history-state="true" data-collections-related="{{ routes.collections_url }}/{{collection.handle}}?view=related">
-      <div class="product product-default aa">
+      <div class="product product-default">
           {%- assign current_variant = product.selected_or_first_available_variant -%}
           {% assign variantCount = product.variants | size %}
 
@@ -480,7 +480,21 @@
                       </span>
                   </div>
                   {% endif %}
+{% assign tamara_lang = request.path | slice: 1,2 %}
+{% if tamara_lang != 'ar' %}
+    {% assign tamara_lang = 'en' %}
+{% endif %}
+<div style="margin: 15px 0" class="tamara-product-widget" data-price="{{product.price | money_without_currency | remove: ','}}" data-currency="{{shop.currency}}" data-payment-type="installment" data-lang="{{ tamara_lang }}"></div>
 
+<script charset="utf-8" src="https://cdn.tamara.co/widget/product-widget.min.js"></script>
+<script>
+    setTimeout(() => {
+        if (window.TamaraProductWidget) {
+            window.TamaraProductWidget.init({ lang: 'en' })
+            window.TamaraProductWidget.render()
+        }
+    }, 300)
+</script>
                   {% if settings.enable_checkbox %}
                       
                     <div class="groups-btn">
