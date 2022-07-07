@@ -479,22 +479,7 @@
                   </div>
                   {% endif %}
 
-                
-                {% assign tamara_lang = request.path | slice: 1,2 %}
-{% if tamara_lang != 'ar' %}
-    {% assign tamara_lang = 'en' %}
-{% endif %}
-<div style="margin: 15px 0" class="tamara-product-widget" data-price="{{product.price | money_without_currency | remove: ','}}" data-currency="{{shop.currency}}" data-payment-type="installment" data-lang="{{ tamara_lang }}"></div>
-
-<script charset="utf-8" src="https://cdn.tamara.co/widget/product-widget.min.js"></script>
-<script>
-    setTimeout(() => {
-        if (window.TamaraProductWidget) {
-            window.TamaraProductWidget.init({ lang: 'en' })
-            window.TamaraProductWidget.render()
-        }
-    }, 300)
-</script>
+              
 
                   {% if settings.enable_checkbox %}
                       
