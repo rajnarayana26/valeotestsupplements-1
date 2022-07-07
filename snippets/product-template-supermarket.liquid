@@ -484,7 +484,7 @@
 {% if tamara_lang != 'ar' %}
     {% assign tamara_lang = 'en' %}
 {% endif %}
-<div style="margin: 15px 0" class="tamara-product-widget" data-price="{{product.price | money_without_currency | remove: ','}}" data-currency="{{shop.currency}}" data-payment-type="installment" data-lang="{{ tamara_lang }}"></div>
+<div style="margin: 15px 0" class="tamara-product-widget" data-country-code="AE" data-price="{{product.price | money_without_currency | remove: ','}}" data-currency="{{shop.currency}}" data-payment-type="installment" data-lang="{{ tamara_lang }}"></div>
 
 <script charset="utf-8" src="https://cdn.tamara.co/widget/product-widget.min.js"></script>
 <script>
