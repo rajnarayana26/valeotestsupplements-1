@@ -218,6 +218,17 @@
           {{ cart.total_price | money }}
         </span> 
       </div>
+ 
+      <script>
+        window.tamaraWidgetConfig = {
+            lang: en,
+            country: SA,
+            publicKey: 5f8d13c0-7bf0-4aa4-b6f6-fc0ee62e78c5
+        }
+      </script>
+      <script defer type="text/javascript" src="https://cdn-sandbox.tamara.co/widget-v2/tamara-widget.js"></script>
+      <tamara-widget type="tamara-summary" amount="{{ cart.total_price | money }}" inline-type="3"></tamara-widget>
+      
       <div class="btn-actions">
         {% if settings.enable_checkbox %}
           <div class="checkbox-group">
