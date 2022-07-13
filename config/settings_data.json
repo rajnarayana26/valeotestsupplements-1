@@ -298,6 +298,12 @@
     "bg_sticky": "#ffffff",
     "color_sticky": "#3c3c3c",
     "color_variants": "#646464",
+    "recurpay_label": "Subscribe Now and Save",
+    "recurpay_button": "Subscribe Now",
+    "recurpay_brand_color": "#000000",
+    "recurpay_border_color": "#000000",
+    "recurpay_button_color": "#ffffff",
+    "recurpay_button_bg": "#000000",
     "checkout_header_image": "",
     "checkout_logo_image": "shopify:\/\/shop_images\/Kuwa-Logo-Transparent-400x290_f7916c8d-3b8c-4e96-bb85-dd62fb3860f7.png",
     "checkout_logo_position": "left",
@@ -4617,13 +4623,7 @@
         "settings": {
         }
       }
-    },
-    "recurpay_label": "Subscribe Now and Save",
-    "recurpay_button": "Subscribe Now",
-    "recurpay_brand_color": "#000000",
-    "recurpay_border_color": "#000000",
-    "recurpay_button_color": "#ffffff",
-    "recurpay_button_bg": "#000000"
+    }
   },
   "presets": {
     "Default": {
