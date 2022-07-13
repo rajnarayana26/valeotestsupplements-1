@@ -29,7 +29,7 @@
     "product_title_line_text": "2",
     "product_vendor_font_size": "14px",
     "time_show_badgeNew": 1,
-    "product_show_badgeNew": 5,
+    "product_show_badgeNew": 15,
     "enable_label_new": true,
     "type_label_sale": "label_sale",
     "enable_label_bundle": true,
