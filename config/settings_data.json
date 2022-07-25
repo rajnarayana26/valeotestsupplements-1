@@ -4593,6 +4593,21 @@
           "margin_bottom_mb": 0,
           "margin_bottom": 0
         }
+      },
+      "1658742577ffc1fc0c": {
+        "type": "Shipping-Partners",
+        "settings": {
+          "content_top": "<h2>Shipping Partners<\/h2>",
+          "content_bottom": "",
+          "font_size": "14px",
+          "text_alignment": "center",
+          "button_text_more": "Read More",
+          "button_text_less": "Read Less",
+          "color_text": "",
+          "margin_bottom_mb": 50,
+          "margin_bottom_tab": 65,
+          "margin_bottom": 65
+        }
       }
     },
     "content_for_index": [
@@ -4614,7 +4629,8 @@
       "1648044259f2bfe67b",
       "16165784478345e08f",
       "1648465924dc94e1e2",
-      "16484556062de7aa0f"
+      "16484556062de7aa0f",
+      "1658742577ffc1fc0c"
     ],
     "blocks": {
       "14060646107696862457": {
