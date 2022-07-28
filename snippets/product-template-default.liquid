@@ -417,7 +417,17 @@
                       </a>
                     {% endif %}
                   {% endif %}
-                 
+                 <a href="https://api.whatsapp.com/send?phone=+919875586445&text=Hi,
+%20I%20want%20to%20order%20this%20product:%20{{ product.title }}
+%20%20https%3A%2F%2F{{ shop_domain }}
+%2Fproducts%2F{{ product.handle }}">
+ <div class="order_whatsapp" style="margin-top: 5px; margin-bottom:20px;
+padding: 11px; text-align: center; background-color: #1EA651;height:
+44px;color:white;">
+ <img src="https://cdn.shopify.com/s/files/1/0653/6154/3391/t/2/assets/whatsapplogo.png?v=1659006211" width="25px" style="vertical-align:middle;">
+Order On <span style="font-weight: bold;">WhatsApp</span>
+ </div>
+ </a>
                   <div id="product-variants">
                       {% if variantCount > 0  and product.variants[0].title != 'Default Title'  %}
                       <select id="product-selectors" name="id" data-productid="{{ product.id }}" style="display: none;">
