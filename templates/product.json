@@ -164,7 +164,7 @@
         "style_moreview": "left_vertical",
         "enable_zoom_image": true,
         "enable_zoom_text": false,
-        "enable_payment_button": true,
+        "enable_payment_button": false,
         "enable_hot_stock": true,
         "number_stock": "5",
         "show_sold_in": true,
