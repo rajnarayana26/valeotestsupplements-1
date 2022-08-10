@@ -4593,6 +4593,63 @@
           "margin_bottom_mb": 0,
           "margin_bottom": 0
         }
+      },
+      "166012704801369c23": {
+        "type": "home-brands",
+        "blocks": {
+          "65322315-377a-4cc1-ac18-e4f75428eea9": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DHL_logo_rgb.png",
+              "title": "DHL",
+              "link": ""
+            }
+          },
+          "a0d15723-4f72-47e1-a70b-f0d9bc982a94": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Aramex_Logo.png",
+              "title": "Aramex",
+              "link": ""
+            }
+          },
+          "a790fd8d-f18c-4213-995d-ee2ae2a41269": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/iq_dc40170d-0879-421a-ac26-c649fe5d92f3.png",
+              "title": "IQ",
+              "link": ""
+            }
+          },
+          "fab704a1-5c8d-42a7-bebb-293fb54900c0": {
+            "type": "image",
+            "settings": {
+              "title": "Loremous",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "65322315-377a-4cc1-ac18-e4f75428eea9",
+          "a0d15723-4f72-47e1-a70b-f0d9bc982a94",
+          "a790fd8d-f18c-4213-995d-ee2ae2a41269",
+          "fab704a1-5c8d-42a7-bebb-293fb54900c0"
+        ],
+        "settings": {
+          "layout": "padd_60",
+          "margin_bottom_mb": 0,
+          "margin_bottom_tab": 0,
+          "margin_bottom": 0,
+          "display_brand_border": true,
+          "display_bg_banner": false,
+          "bg_color_banner": "#f5f5f5",
+          "brand_title": "Shipping Partners",
+          "brand_des": "",
+          "brands_view_all": "",
+          "brands_view_all_link": "",
+          "title_style": "style_1",
+          "brand_rows": "5"
+        }
       }
     },
     "content_for_index": [
@@ -4614,7 +4671,8 @@
       "1648044259f2bfe67b",
       "16165784478345e08f",
       "1648465924dc94e1e2",
-      "16484556062de7aa0f"
+      "16484556062de7aa0f",
+      "166012704801369c23"
     ]
   },
   "presets": {
