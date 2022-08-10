@@ -4637,7 +4637,7 @@
           "a790fd8d-f18c-4213-995d-ee2ae2a41269"
         ],
         "settings": {
-          "layout": "default",
+          "layout": "padd_60",
           "margin_bottom_mb": 0,
           "margin_bottom_tab": 0,
           "margin_bottom": 0,
