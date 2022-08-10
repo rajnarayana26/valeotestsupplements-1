@@ -4613,6 +4613,14 @@
               "link": ""
             }
           },
+          "fab704a1-5c8d-42a7-bebb-293fb54900c0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/2_a66d4696-de70-472e-a1ce-8da73da415fb.jpg",
+              "title": "posta plus",
+              "link": ""
+            }
+          },
           "a790fd8d-f18c-4213-995d-ee2ae2a41269": {
             "type": "image",
             "settings": {
@@ -4620,35 +4628,85 @@
               "title": "IQ",
               "link": ""
             }
-          },
-          "fab704a1-5c8d-42a7-bebb-293fb54900c0": {
+          }
+        },
+        "block_order": [
+          "65322315-377a-4cc1-ac18-e4f75428eea9",
+          "a0d15723-4f72-47e1-a70b-f0d9bc982a94",
+          "fab704a1-5c8d-42a7-bebb-293fb54900c0",
+          "a790fd8d-f18c-4213-995d-ee2ae2a41269"
+        ],
+        "settings": {
+          "layout": "default",
+          "margin_bottom_mb": 0,
+          "margin_bottom_tab": 0,
+          "margin_bottom": 0,
+          "display_brand_border": false,
+          "display_bg_banner": true,
+          "bg_color_banner": "#ffffff",
+          "brand_title": "Shipping Partners",
+          "brand_des": "",
+          "brands_view_all": "",
+          "brands_view_all_link": "",
+          "title_style": "style_1",
+          "brand_rows": "4"
+        }
+      },
+      "1660131109e541b496": {
+        "type": "home-brands-2",
+        "disabled": true,
+        "blocks": {
+          "b66af340-b927-4f12-b795-fd414cf9face": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/DHL_logo_rgb.png",
+              "title": "DHL",
+              "link": ""
+            }
+          },
+          "781c508d-35b1-4a6d-94eb-4f1ed652febd": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Aramex_Logo.png",
+              "title": "aramex",
+              "link": ""
+            }
+          },
+          "9d2f7694-b38c-42dc-8604-58b5699ca231": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/postaplus_57e597f8-2aad-440b-9beb-6db9bc582e74.png",
+              "title": "Loremous",
+              "link": ""
+            }
+          },
+          "e8e16f0a-22eb-49b2-973a-3b84889168ef": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/d_2d0ecab0-2f12-421c-9e37-013b54189fa0.png",
               "title": "Loremous",
               "link": ""
             }
           }
         },
         "block_order": [
-          "65322315-377a-4cc1-ac18-e4f75428eea9",
-          "a0d15723-4f72-47e1-a70b-f0d9bc982a94",
-          "a790fd8d-f18c-4213-995d-ee2ae2a41269",
-          "fab704a1-5c8d-42a7-bebb-293fb54900c0"
+          "b66af340-b927-4f12-b795-fd414cf9face",
+          "781c508d-35b1-4a6d-94eb-4f1ed652febd",
+          "9d2f7694-b38c-42dc-8604-58b5699ca231",
+          "e8e16f0a-22eb-49b2-973a-3b84889168ef"
         ],
         "settings": {
-          "layout": "padd_60",
+          "layout": "default",
+          "view_all": "",
+          "link_view_all": "",
           "margin_bottom_mb": 0,
           "margin_bottom_tab": 0,
           "margin_bottom": 0,
-          "display_brand_border": true,
-          "display_bg_banner": false,
-          "bg_color_banner": "#f5f5f5",
-          "brand_title": "Shipping Partners",
+          "brand_title": "Delivery Partners",
           "brand_des": "",
-          "brands_view_all": "",
-          "brands_view_all_link": "",
           "title_style": "style_1",
-          "brand_rows": "5"
+          "brand_rows": "5",
+          "show_brand_rows": "1"
         }
       }
     },
@@ -4672,7 +4730,8 @@
       "16165784478345e08f",
       "1648465924dc94e1e2",
       "16484556062de7aa0f",
-      "166012704801369c23"
+      "166012704801369c23",
+      "1660131109e541b496"
     ]
   },
   "presets": {
