@@ -4600,7 +4600,7 @@
           "65322315-377a-4cc1-ac18-e4f75428eea9": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/DHL_logo_rgb.png",
+              "image": "shopify:\/\/shop_images\/DHL.jpg",
               "title": "DHL",
               "link": ""
             }
@@ -4616,7 +4616,7 @@
           "fab704a1-5c8d-42a7-bebb-293fb54900c0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/2_a66d4696-de70-472e-a1ce-8da73da415fb.jpg",
+              "image": "shopify:\/\/shop_images\/postaplus_491a7315-390b-4b41-a530-21f028835811.jpg",
               "title": "posta plus",
               "link": ""
             }
@@ -4624,8 +4624,15 @@
           "a790fd8d-f18c-4213-995d-ee2ae2a41269": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/iq_dc40170d-0879-421a-ac26-c649fe5d92f3.png",
+              "image": "shopify:\/\/shop_images\/d.jpg",
               "title": "IQ",
+              "link": ""
+            }
+          },
+          "ddbc389e-06aa-41d4-9235-fbe14af81ec1": {
+            "type": "image",
+            "settings": {
+              "title": "Loremous",
               "link": ""
             }
           }
@@ -4634,7 +4641,8 @@
           "65322315-377a-4cc1-ac18-e4f75428eea9",
           "a0d15723-4f72-47e1-a70b-f0d9bc982a94",
           "fab704a1-5c8d-42a7-bebb-293fb54900c0",
-          "a790fd8d-f18c-4213-995d-ee2ae2a41269"
+          "a790fd8d-f18c-4213-995d-ee2ae2a41269",
+          "ddbc389e-06aa-41d4-9235-fbe14af81ec1"
         ],
         "settings": {
           "layout": "padd_60",
