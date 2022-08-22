@@ -4632,7 +4632,8 @@
           "ddbc389e-06aa-41d4-9235-fbe14af81ec1": {
             "type": "image",
             "settings": {
-              "title": "Loremous",
+              "image": "shopify:\/\/shop_images\/512x512bb.jpg",
+              "title": "smsa",
               "link": ""
             }
           }
