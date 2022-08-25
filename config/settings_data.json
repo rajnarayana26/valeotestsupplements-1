@@ -4663,7 +4663,6 @@
       },
       "1660131109e541b496": {
         "type": "home-brands-2",
-        "disabled": true,
         "blocks": {
           "b66af340-b927-4f12-b795-fd414cf9face": {
             "type": "image",
@@ -4676,7 +4675,7 @@
           "781c508d-35b1-4a6d-94eb-4f1ed652febd": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Aramex_Logo.png",
+              "image": "shopify:\/\/shop_images\/aramex-logo-vector_7c981036-5ed6-4416-9d8b-e8f5a9a26380.jpg",
               "title": "aramex",
               "link": ""
             }
