@@ -75,7 +75,7 @@
     "display_sticky_mb": true,
     "display_countdown": true,
     "enable_quick_shop": false,
-    "enable_notify_form": true,
+    "enable_notify_form": false,
     "enable_quick_view": true,
     "qv_display_product_reviews": true,
     "enable_hot_stock": true,
